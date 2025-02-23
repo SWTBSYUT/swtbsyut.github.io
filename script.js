@@ -73,15 +73,35 @@ document.addEventListener("DOMContentLoaded", function () {
         rankingTable.appendChild(row);
     });
 
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+    
+        menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+    
+        // **追加：ウィンドウの幅が広がったらメニューを閉じる**
+        window.addEventListener("resize", function () {
+            if (window.innerWidth > 768) {
+                navLinks.classList.remove("active");
+            }
+        });
+    });    
+});
+
+document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.querySelector(".menu-toggle");
     const navLinks = document.querySelector(".nav-links");
 
-    if (!menuToggle || !navLinks) {
-        console.error("要素が見つかりません！");
-        return;
-    }
-
     menuToggle.addEventListener("click", function () {
         navLinks.classList.toggle("active");
+    });
+
+    // **追加：ウィンドウの幅が広がったらメニューを閉じる**
+    window.addEventListener("resize", function () {
+        if (window.innerWidth > 768) {
+            navLinks.classList.remove("active");
+        }
     });
 });

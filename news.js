@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const newsList = [
-        { date: "2025-02-20", title: "新アップデート！", description: "最新のアップデート情報！" },
-        { date: "2025-01-15", title: "イベント終了", description: "先日のイベントが終了しました！" },
-        { date: "2024-12-25", title: "クリスマスイベント開催！", description: "特別なイベント開催！" }
+        { date: "2025-02-24", title: "ワールドの新機能！", description: "ログイン部屋やSpecial Event室や個室ができました！"},
+        { date: "2025-02-24", title: "バグ修正", description: "色々なバグを修正しました" },
+        { date: "2025-02-20", title: "お金システム完成！", description: "貢献度(Money)システムができました。なのでホームページに買取・販売価格を作りました。"},
+        { date: "2025-02-20", title: "ホームページ公開！", description: "ホームページを公開しました！" }
     ];
 
     const newsContainer = document.getElementById("news-list");

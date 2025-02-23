@@ -30,3 +30,34 @@ input, select {
     padding: 8px;
     font-size: 16px;
 }
+
+/* 全体の表をダークモードにする */
+.table-container {
+    background-color: #222; /* ダーク背景 */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white; /* 文字を白 */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+/* ヘッダーの背景色 */
+th {
+    background-color: #333;
+}
+
+/* ダイヤモンド・鉱石系の行だけ白背景にする */
+tr[data-category="diamond"], 
+tr[data-category="ore"] {
+    background-color: white !important;
+    color: black !important;
+}
