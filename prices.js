@@ -1,13 +1,14 @@
 const items = [
-    { name: "ダイヤモンド", type: "鉱石", buy: 500, sell: 250 , image: "images/items/None.jpeg" },
-    { name: "鉄インゴット", type: "鉱石", buy: 100, sell: 50 , image: "images/items/None.jpeg" },
-    { name: "パン", type: "食料", buy: 20, sell: 10 , image: "images/items/None.jpeg" },
-    { name: "金リンゴ", type: "食料", buy: 1000, sell: 500 , image: "images/items/None.jpeg" },
-    { name: "石炭", type: "鉱石", buy: 50, sell: 25 , image: "images/items/None.jpeg" },
-    { name: "エメラルド", type: "鉱石", buy: 800, sell: 400 , image: "images/items/None.jpeg" },
-    { name: "ネザライトインゴット", type: "鉱石", buy: 2000, sell: 1000 , image: "images/items/None.jpeg" },
-    { name: "木材", type: "建築", buy: 30, sell: 15 , image: "images/items/None.jpeg" },
-    { name: "ガラス", type: "建築", buy: 40, sell: 20 , image: "images/items/None.jpeg" },
+    { name: "ダイヤモンド", type: "鉱石", buy: 20, sell: 10 , image: "images/items/None.jpeg" },
+    { name: "鉄インゴット", type: "鉱石", buy: 10, sell: 5 , image: "images/items/None.jpeg" },
+    { name: "パン", type: "食料", buy: 5, sell: 2 , image: "images/items/None.jpeg" },
+    { name: "金リンゴ", type: "食料", buy: 75, sell: 40 , image: "images/items/None.jpeg" },
+    { name: "石炭", type: "鉱石", buy: 2, sell: 1 , image: "images/items/None.jpeg" },
+    { name: "エメラルド", type: "鉱石", buy: 5, sell: 3 , image: "images/items/None.jpeg" },
+    { name: "ネザライトインゴット", type: "鉱石", buy: 75, sell: 50 , image: "images/items/None.jpeg" },
+    { name: "木材", type: "建築", buy: 2, sell: 1 , image: "images/items/None.jpeg" },
+    { name: "ガラス", type: "建築", buy: 3, sell: 1 , image: "images/items/None.jpeg" },
+    { name: "1回tpコマンド券", type: "券", buy: 500, sell: 200 , image: "images/items/None.jpeg" },
 ];
 
 const tableBody = document.getElementById("itemTableBody");
